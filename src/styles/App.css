@@ -2,9 +2,13 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 1em;  
+  gap: 20px;
+  list-style: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
