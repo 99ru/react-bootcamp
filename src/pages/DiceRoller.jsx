@@ -6,7 +6,6 @@ const DiceRoller = () => {
   return (
     <div className='App'>
       <Header />
-    
       <DiceComp />
     </div>
   )
