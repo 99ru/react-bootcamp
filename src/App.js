@@ -8,6 +8,7 @@ import Form from "./pages/Form";
 import ToggleSwitch from "./pages/ToggleSwitch";
 import Fruits from "./pages/Fruits";
 import Shroedinger from "./pages/Shroedinger";
+import TabularViewPage from "./pages/TabularViewPage";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/toggle" element={<ToggleSwitch />} />
           <Route path="/fruits" element={<Fruits />} />
           <Route path="/Shroedinger" element={<Shroedinger />} />
+          <Route path="/TabularViewPage" element={<TabularViewPage />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -1,0 +1,26 @@
+.view1{
+  background-color: palegreen;
+  padding: 10rem;
+}
+.view2{
+  background-color: peachpuff;
+  padding: 10rem;
+ 
+}
+.view3{
+  background-color: powderblue;
+  padding: 10rem;
+ 
+}
+
+.btn-1{
+  background-color: palegreen;
+}
+
+.btn-2{
+  background-color: peachpuff;
+}
+
+.btn-3{
+  background-color: powderblue;
+}

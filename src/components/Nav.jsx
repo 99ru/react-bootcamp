@@ -13,6 +13,7 @@ const Header = () => {
     <li><Link to="/toggle" className='App-link'>Toggle</Link></li>
     <li><Link to="/fruits" className='App-link'>Fruits</Link></li>
     <li><Link to="/Shroedinger" className='App-link'>Shroedinger</Link></li>
+    <li><Link to="/TabularViewPage" className='App-link'>TabularViewPage</Link></li>
     </nav>
     </div>
   )

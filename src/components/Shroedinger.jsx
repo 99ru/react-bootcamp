@@ -9,14 +9,14 @@ const Shroedinger = () => {
   const backendImg = backend;
   const randomImg = Math.random() > 0.5 ? frontendImg : backendImg //50% chance
 
- if (open === true) {
+ if (open) {
     return (
       <div>
         <h1>you got an</h1>
         <img src={randomImg} alt="shroedinger" />
-        <div className="shroedinger-button">
+        <div className="restart-button">
           <button onClick={() => setOpen(!open)}> 
-            {open ? "Try again" : "Open"}
+            {open ? "Try again" : "Open"} 
           </button>
         </div>
       </div>
@@ -26,7 +26,7 @@ const Shroedinger = () => {
   return (
     <div>
       <p>Click on the chest!</p>
-      <img onClick={() => setOpen(true)} src={Chest} alt="chest" className="ShroedingersChest" width="250" />
+      <img onClick={() => setOpen(true)} src={Chest} alt="chest" className="ShroedingersChest" width="250"/>
     </div>
   );
 } 
