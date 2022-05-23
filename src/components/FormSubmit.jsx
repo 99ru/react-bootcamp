@@ -5,6 +5,7 @@ const FormSubmit = () => {
   const submit = (e) => {  
     e.preventDefault()
     console.log(input)
+    setInput('')
   }
   const clear = () => {
     setInput('')
@@ -13,6 +14,7 @@ const FormSubmit = () => {
   return (
     <div className='form-wrapper'>
       <h2>Form submit prevention</h2>
+      <h3>check the console to see if the prevention worked</h3>
       <form action="POST">
         <input type="text" value={input} placeholder="input" onChange={(e) => setInput(e.target.value)}/>
         <button onClick={submit}>submit</button>

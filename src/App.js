@@ -7,7 +7,7 @@ import DiceRoller from "./pages/DiceRoller";
 import Form from "./pages/Form";
 import ToggleSwitch from "./pages/ToggleSwitch";
 import Fruits from "./pages/Fruits";
-import Developers from "./pages/Developers";
+import Shroedinger from "./pages/Shroedinger";
 
 const App = () => {
   return (
@@ -22,10 +22,7 @@ const App = () => {
           <Route path="/form" element={<Form />} />
           <Route path="/toggle" element={<ToggleSwitch />} />
           <Route path="/fruits" element={<Fruits />} />
-          <Route path="/developers" element={<Developers />} />
-
-
-
+          <Route path="/Shroedinger" element={<Shroedinger />} />
         </Routes>
       </BrowserRouter>
     </div>

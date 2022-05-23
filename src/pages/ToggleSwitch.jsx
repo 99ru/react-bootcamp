@@ -1,5 +1,5 @@
 import ToggleComp from '../components/ToggleComp';
-import Header from '../components/Header';
+import Header from '../components/Nav';
 
 const toggle = () => {
   return (

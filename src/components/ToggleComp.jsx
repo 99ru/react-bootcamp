@@ -10,7 +10,7 @@ const ToggleComp = () => {
     <div>
       <div className='button-switch'>
       <h2>On and Off switch</h2>
-      <h1>{state ? "On" : "Off"}</h1>
+      <h1>{state ? "On" : "Off"}</h1> 
       <button onClick={toggle}>Toggle</button>
       </div>
     </div>

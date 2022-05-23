@@ -1,4 +1,4 @@
-import Header from '../components/Header';
+import Header from '../components/Nav';
 import DiceComp from '../components/DiceComp.jsx';
 
 

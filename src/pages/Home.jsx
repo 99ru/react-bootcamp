@@ -1,5 +1,5 @@
 import '../styles/App.css';
-import Header from '../components/Header';
+import Header from '../components/Nav';
 import Logo from '../assets/logo.svg';
 
 const home = () => { 

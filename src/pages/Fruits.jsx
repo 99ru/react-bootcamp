@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import Header from "../components/Nav";
 import FruitsComp from "../components/FruitsComp";
 
 const Fruits = () => {

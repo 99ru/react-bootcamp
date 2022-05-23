@@ -1,4 +1,4 @@
-import Header from '../components/Header';
+import Header from '../components/Nav';
 import BettyComp from "../components/BettyComp";
 import betty from "../assets/betty.json";
 

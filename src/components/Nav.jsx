@@ -12,7 +12,7 @@ const Header = () => {
     <li><Link to="/form" className='App-link'>Form</Link></li>
     <li><Link to="/toggle" className='App-link'>Toggle</Link></li>
     <li><Link to="/fruits" className='App-link'>Fruits</Link></li>
-    <li><Link to="/developers" className='App-link'>Developers</Link></li>
+    <li><Link to="/Shroedinger" className='App-link'>Shroedinger</Link></li>
     </nav>
     </div>
   )

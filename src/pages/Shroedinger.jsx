@@ -1,5 +1,5 @@
-import DevsComp from "../components/DevsComp";
-import Header from "../components/Header";
+import DevsComp from "../components/Shroedinger";
+import Header from "../components/Nav";
 
 const Developers = () => {
   return (
