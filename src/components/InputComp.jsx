@@ -7,7 +7,7 @@ const InputComp = () => {
 
   return (
     <div className='input'>
-      <h2>{input}</h2>
+      <h2>Output:{input}</h2>
       <input type='text' value={input} onChange={e => setInput(e.target.value)} />
       <button onClick={clear}>Clear</button>
      
