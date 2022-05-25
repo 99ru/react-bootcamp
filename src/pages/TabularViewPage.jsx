@@ -1,5 +1,5 @@
 import Header from "../components/Nav";
-import TabularView from "../components/TabularView";
+import TabularView from "../components/Conditional & List Rendering/TabularView";
 
 const TabularViewPage= () => {
 

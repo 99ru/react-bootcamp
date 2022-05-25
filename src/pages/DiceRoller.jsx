@@ -1,5 +1,5 @@
 import Header from '../components/Nav';
-import DiceComp from '../components/DiceComp.jsx';
+import DiceComp from '../components/Event&State/DiceComp.jsx';
 
 
 const DiceRoller = () => {

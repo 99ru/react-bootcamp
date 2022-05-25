@@ -1,4 +1,4 @@
-import ToggleComp from '../components/ToggleComp';
+import ToggleComp from '../components/Conditional & List Rendering/ToggleComp';
 import Header from '../components/Nav';
 
 const toggle = () => {

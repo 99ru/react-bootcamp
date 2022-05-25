@@ -1,5 +1,5 @@
 import { useState } from "react";
-import piravid from "../assets/Piravid.png";
+import piravid from "../../assets/Piravid.png";
 
 const FakedLogin = () => {
   const [LoggedIn, setLoggedIn] = useState(false);
@@ -17,7 +17,7 @@ const FakedLogin = () => {
 
   return (
     <div className="App">
-      {LoggedIn ? <h1>Welcome back {userName}  <img src={piravid} alt="piravid"/>  </h1> : <h1>Login</h1>} 
+      {LoggedIn ? <h1>Welcome back {userName} <br /> <img src={piravid} alt="piravid"/>  </h1> : <h1>Login</h1>} 
       {LoggedIn ? <button onClick={() => setLoggedIn(false)}>Logout</button> : 
 
       <form onSubmit={handleLogin}>

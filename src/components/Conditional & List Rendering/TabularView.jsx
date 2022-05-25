@@ -1,5 +1,5 @@
 import { useState } from 'react'; 
-import '../styles/TabularView.css';
+import '../../styles/TabularView.css';
 
 const TabularView = () => {
   const [view, setView] = useState(0)

@@ -1,4 +1,4 @@
-import DevsComp from "../components/Shroedinger";
+import DevsComp from "../components/Conditional & List Rendering/Shroedinger";
 import Header from "../components/Nav";
 
 const Developers = () => {

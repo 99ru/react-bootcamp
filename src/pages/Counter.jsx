@@ -1,5 +1,5 @@
 import Header from '../components/Nav';
-import CounterComp from '../components/CounterComp';
+import CounterComp from '../components/Event&State/CounterComp';
 
 
 

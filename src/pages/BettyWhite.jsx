@@ -1,5 +1,5 @@
 import Header from '../components/Nav';
-import BettyComp from "../components/BettyComp";
+import BettyComp from "../components/Props/BettyComp";
 import betty from "../assets/betty.json";
 
 const BettyWhite = () => {

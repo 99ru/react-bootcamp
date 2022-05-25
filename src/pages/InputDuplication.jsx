@@ -1,4 +1,4 @@
-import InputComp from '../components/InputComp';
+import InputComp from '../components/Event&State/InputComp';
 import Header from '../components/Nav';
 const InputDuplication = () => {
   return (

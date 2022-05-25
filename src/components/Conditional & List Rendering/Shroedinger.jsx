@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import frontend from "../assets/frontend.jpg";
-import backend from "../assets/backend.gif";
-import Chest from "../assets/Chest.webp";
+import frontend from "../../assets/frontend.jpg";
+import backend from "../../assets/backend.gif";
+import Chest from "../../assets/Chest.webp";
 
 const Shroedinger = () => { 
   const [open, setOpen] = useState(false);  

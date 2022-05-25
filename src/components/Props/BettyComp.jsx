@@ -1,5 +1,5 @@
-import bettan from "../assets/Betty_White.jpg";
-import '../styles/BettyComp.css';
+import bettan from "../../assets/Betty_White.jpg";
+import '../../styles/BettyComp.css';
 
 const BettyComp = (props) => {
   

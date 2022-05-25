@@ -1,5 +1,5 @@
 import Header from "../components/Nav";
-import FruitsComp from "../components/FruitsComp";
+import FruitsComp from "../components/Conditional & List Rendering/FruitsComp";
 
 const Fruits = () => {
   return (
